@@ -60,19 +60,16 @@ function perimetroCirculo(radio){
 function areaCirculo(radio){
     return (radio**2)*PI;
 }
+function alturaTriangulo(LadoA,LadoB,LadoC){
+    if(LadoA==LadoB){
+        return Math.sqrt((LadoA**2)-((LadoC**2)/4));
+    } else if (LadoB==LadoC){
+        return Math.sqrt((LadoB**2)-((LadoA**2)/4))
+    }   else if (LadoC==LadoA){
+        return Math.sqrt((LadoA**2)-((LadoB**2)/4))
+    } else {
+        return "No es un triangulo isoceles."
+    }
+}
 //console.log("El Area del circulo mide:"+ areaCirculo + " cm^2");
 console.groupEnd();
-function alturaTriangulo(LadoA,LadoB,LadoC){
-if(LadoA==LadoB){
-    return Math.sqrt((LadoA**2)-((LadoC**2)/4));
-}
-esle if (LadoB==LadoC){
-    return Math.sqrt((LadoA**2)-((LadoA**2)/4))
-}
-esle if (LadoC==LadoA){
-    return Math.sqrt((LadoA**2)-((LadoB**2)/4))
-}
-else {
-    return "No es un triangulo isoceles."
-}
-}
