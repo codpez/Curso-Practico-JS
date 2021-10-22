@@ -16,3 +16,9 @@ Curso platzi JS practico.
 -Segundo paso: implementar fórmulas en JavaScript.
 -Tercer paso: crear funciones.
 -Cuarto paso: integrar JS con HTML.
+
+## Taller #3: Promedio, mediana y moda
+-Primer paso: definir kas fórmulas.
+-Segundo paso: implementar fórmulas en JavaScript.
+-Tercer paso: crear funciones.
+-Cuarto paso: Integrar JS con html.
