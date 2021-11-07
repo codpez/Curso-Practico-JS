@@ -1,4 +1,4 @@
-import { mexico } from "./salarios.js"
+import{mexico} from './salarios.js'
 const salariosMx = mexico.map(
     function(persona){
         return persona.salary;
